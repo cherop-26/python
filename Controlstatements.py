@@ -7,7 +7,7 @@ else :
      print("it is too cold")
 
 # A program that the returns the largest number
-first = 78
+first =int(input("Enter the first number"))
 second = 48
 third = 62
 
