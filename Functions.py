@@ -40,6 +40,11 @@ employee("Gina",23,"Female","400000","Engineer")
 def patient(fullname, gender, age, disease):
     print(fullname,gender,age,disease)
 
-patient()
+patient("Briannah","Female",23,"Pneumonia")
+patient("Alex","Male",35,"Cancer")
+patient("Eloise","Female",21,"Flu")
+patient("George","Male",46,"Diabetes")
+patient("Jake","Male",20,"Gastritis")
+
 
 
