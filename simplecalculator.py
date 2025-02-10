@@ -27,20 +27,21 @@ def calculator():
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
+calculator()
 
 operator= input("Enter operator (1/2/3/4): ")
 
 if operator == '1':
-        print(f"{num1} + {num2} = {add(num1, num2)}")
+        print(f" {add(num1, num2)}")
 elif operator == '2':
-        print(f"{num1} - {num2} = {subtract(num1, num2)}")
+        print(f"  {subtract(num1, num2)}")
 elif operator == '3':
-        print(f"{num1} * {num2} = {multiply(num1, num2)}")
+        print(f"  {multiply(num1, num2)}")
 elif operator == '4':
-        print(f"{num1} / {num2} = {divide(num1, num2)}")
+        print(f" {divide(num1, num2)}")
 else:
         print("Invalid input!")
 
 
-calculator()
+
 
