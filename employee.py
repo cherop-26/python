@@ -17,3 +17,6 @@ print(employee2.name,employee2.position,employee2.salary)
 employee3 = Employee("Gina","Director",650000)
 print(employee3.name,employee3.position,employee3.salary)
 
+
+
+
