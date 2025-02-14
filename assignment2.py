@@ -27,6 +27,9 @@ print(number,"*9 =",number*9)
 
 
 #year
+import calendar
 
+year = int(input("Enter year: "))
+print(calendar.calendar(year))
 
 
